@@ -1,0 +1,295 @@
+/* Basics */
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.75;
+  color: #212121;
+}
+
+/* Header */
+
+
+
+header{
+    overflow: hidden;
+    padding: 1.5em 5%;
+    background: linear-gradient(#FF9800,  );
+  background-color: #3F51B5;
+  width: 90%;
+
+}
+
+header h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 7em;
+    color: #fff;
+}
+
+
+header .fa-cogs{
+	font-size: 3rem;	
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+header h1 img {
+  display: block;
+  width: 25%;
+  font-size: 5rem;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+}
+
+header nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ffecb3;
+  transition: color .4s;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+@media screen and (min-width:37.5rem){
+  header h1 {
+    float: left;
+    width: 50%;
+  }
+  header nav {
+    float: left;
+    width: 50%;
+    text-align: right;
+  }
+}
+
+/* Main */
+
+main {
+  overflow: hidden;
+  padding: 3rem 5%;
+}
+
+main h1, 
+main h3 {
+  /* The first two lines set-up the little line */
+  
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #BDBDBD;
+}
+
+
+
+
+/* content-home */ 
+
+main{
+  overflow: hidden;
+  padding: 3em 5%;
+  text-orientation: none;
+  text-decoration: none;
+
+}
+
+main h4{
+  font-size: 2raignem;
+}
+
+
+main p{
+  font-size: 1.5rem; 
+}
+
+@media screen and (min-width:67.5em){
+ .col{
+  width: 31.3333%;
+  float: left;
+    margin-right: 2%; 
+  }
+
+}
+
+.custom-list {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+}
+.custom-list li {
+ counter-increment: step-counter;
+}
+.custom-list li:before {
+ content: counter(step-counter);
+ font-size: 6rem;
+} 
+
+a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+
+a:visited{
+  text-decoration: none;
+  color: #3F51B5;
+
+}
+
+
+
+block creates the little line before the title */
+
+  position: absolute;
+  top: .875rem;
+  left: .125rem;
+  width: 2.5rem;
+  height: 1px;
+  content: '';
+  background-color: #BDBDBD;
+}
+
+main h2 {
+  margin: 0 0 1.5rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+main h2 + p {
+  margin-bottom: 1.5rem;
+}
+
+main img {
+  width: 100%;
+}
+
+main ol,
+main ul {
+  margin-bottom: 1.5rem;
+  padding: 0 0 0 1rem;
+  list-style-type: none;
+}
+
+main li img { 
+  width: 100%; }
+
+@media screen and (min-width:37.5rem){
+  .col1 {
+    float: left;
+    width: 60%
+  }
+  .col2 {
+    float: right;
+    width: 30%;
+  }
+  			
+}
+
+.col2 img {
+	display: block;
+	margin-bottom: 1rem;
+
+}
+
+.col4 {
+	clear: both;	
+}
+
+.pagenav {
+	background-color: #3F51B5;
+padding: 1.5rem 5%;
+overflow: hidden;
+
+}
+
+.pagenav ol{
+	list-style: none;
+margin: 0;	
+padding: 0;
+
+
+}
+
+.pagenav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ @media screen and (min-width:37.5rem){
+  .pagenav li {
+    float: left;
+    width: 50%
+  }
+  
+ 	.pagenav li:last-child{
+ 		text-align: right;
+ 	} 			
+}
+
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: -1;
+  width: 90%;
+  overflow: hidden;
+  padding: 1.5rem 5%;
+  background-color: #BDBDBD;
+}
+
+.copyright {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-social li {
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+}
+
+.nav-social a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #212121;
+}
+
+@media screen and (min-width:47.5rem){
+  .copyright {
+    float: left;
+    width: 50%;
+  }
+  .nav-social {
+    float: right;
+    width: 50%;
+    text-align: right;
+  }
+  .nav-social li {
+    margin: 0 0 0 2.5%;
+  }
+}
